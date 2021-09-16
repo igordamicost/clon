@@ -7,6 +7,7 @@
     width: 100%;
     border-bottom: #515151;
     background-color: var(--navcolor);
+    z-index: 500;
     transition: background ease-out 0.2s;
 }
 
@@ -31,8 +32,6 @@
     color: var(--secondary);
 }
 /*FIXED MENU*/
-
-
 body, html{
 
     margin: 0;
@@ -43,14 +42,10 @@ body, html{
     color: var(--primary);
     
 }
+
 .introduction{
     margin: 8% 2% 5% 2%;
     background-color: var(--colorback);
-}
-
-#body .container{
-    justify-content: center;
-    margin: 10%;
 }
 
 .services{
@@ -58,13 +53,38 @@ body, html{
     justify-content: center;
     background-color: var(--navcolor);
 }
+
 .card{
     margin: 3% 3% 3% 0;
 }
 
-.partners{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    background-color: var(--colorback);
+.carousel{
+    align-items: center;
+    text-align: center;
+    background-color: var(--secondary-light);
+}
+
+.title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight:700;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.carrosel-partners{
+    padding-bottom: 100px;
+}
+.footer{
+    margin: 0;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+    background-color: var(--footercolor);
+    color:var(--navcolor)
+}
+
+#body .nav-link{
+
 }

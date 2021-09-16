@@ -1,7 +1,9 @@
 :root{
     --primary:#515151;
     --secondary:#00A2DB;
+    --secondary-light:#B9D9E4;
     --error: #DB0000;
     --colorback:#EFEFEF;
     --navcolor:#ffffff;
+    --footercolor:#056283;
 }
