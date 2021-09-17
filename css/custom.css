@@ -9,6 +9,7 @@
     background-color: var(--navcolor);
     z-index: 500;
     transition: background ease-out 0.2s;
+    border-bottom: 2px inset #5151510e;
 }
 
 #header .navbar-collapse{
@@ -85,6 +86,26 @@ body, html{
     color:var(--navcolor)
 }
 
-#body .nav-link{
 
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7% 30% 3% 30%;
+    background-color: var(--navcolor);
+    border-radius: 0% 20px 0% 20px;
+    border: 2px inset #5151510e;
+    width: 500px;
+    height: auto;
+}
+
+.logo{
+    padding: 10% 30% 10% 30% ;
+    
+}
+.forms{
+    margin: 10%;
+}
+.button{
+    margin: 10%;
 }
