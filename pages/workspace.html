@@ -11,18 +11,6 @@
     <link href="/css/workspace.css" rel="stylesheet" >
     <title>HubRPA</title>
   </head>
-  <body>
-    <!DOCTYPE html>
-<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
-    <link rel="stylesheet" href="style.css">
-    <!-- Boxicons CDN Link -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
 <body>
   <div class="sidebar">
     <!-- EDITAR LOGO E HAMBURGER -->
@@ -34,7 +22,7 @@
     <ul class="nav-list">
       <!-- EDITAR HOME -->
       <li>
-        <a href="#">
+        <a href="https://portal.hubrpa.com.br">
           <i class='bx bxs-home' ></i>
           <span class="links_name">Home</span>
         </a>
@@ -42,7 +30,7 @@
       </li>
       <!-- EDITAR INSCRIÇÃO -->
       <li>
-       <a href="#">
+       <a onclick="openPage('inscricao','conteudo')">
         <i class='bx bxs-copy-alt'></i>
          <span class="links_name">Inscrições</span>
        </a>
@@ -50,7 +38,7 @@
       </li>
       <!-- EDITAR CONTADOR -->
       <li>
-       <a href="#">
+       <a onclick="openPage('contadores','conteudo')">
         <i class='bx bxs-user-account' ></i>
          <span class="links_name">Contadores</span>
        </a>
@@ -58,7 +46,7 @@
       </li>
       <!-- EDITAR RELATORIOS -->      
       <li>
-        <a href="#">
+        <a onclick="openPage('relatorio','conteudo')">
           <i class='bx bxs-pie-chart-alt-2'></i>
           <span class="links_name">Relatórios</span>
         </a>
@@ -66,7 +54,7 @@
       </li>
       <!-- EDITAR CONTATOS -->
       <li>
-       <a href="#">
+       <a onclick="openPage('contatos','conteudo')">
         <i class='bx bxs-book-content' ></i>
          <span class="links_name">Contatos</span>
        </a>
@@ -90,7 +78,7 @@
     -->
       <!-- EDITAR AJUSTES -->
       <li>
-          <a href="#">
+          <a onclick="openPage('ajustes','conteudo')">
             <i class='bx bxs-cog' ></i>
             <span class="links_name">Ajustes</span>
           </a>
@@ -110,17 +98,12 @@
     </ul>
     <!-- INSTERFACE DE USO -->
   </div>
-  <section class="home-section">
-      <div class="text">Dashboard</div>
+  <section id="conteudo" class="home-section">
   </section>
-  <script src="/js/slidebar.js"></script>
-</body>
-</html>
-
-  </body>
-    
+    <script src="/js/slidebar.js"></script>
+    <script src="/js/norefresh.js"></script>
     <script src="/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="/js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
