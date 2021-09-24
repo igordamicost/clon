@@ -15,26 +15,32 @@
     <div class="container">
       <div class="box">
         <div class="title">
-            Insira os dados de sua inscrição
+            Insira os dados de sua Empresa
         </div>
 
         
       </div>
       <div class="table">
         <form method="post" action="/pages/workspace.html">
-            <label for="inscricao">INSCRIÇÃO</label>
-            <input type="text" id="fname" name="inscricao" placeholder="Numero da inscrição a anexar">
+            <label for="inscricao">CNPJ</label>
+            <input type="text" id="fname" name="inscricao" placeholder="Digite o CNPJ">
             
             <label for="country">UF</label>
             <select id="country" name="country">
               <option value="Goias">GO</option>
             </select>
         
-            <label for="lname">CNPJ</label>
-            <input type="text" id="lname" name="lastname" placeholder="Digite o CNPJ">
+            <label for="lname">NOME DA EMRPESA</label>
+            <input type="text" id="lname" name="lastname" placeholder="Digite o nome da empresa">
+
+            <label for="lname">TELEFONE PARA CONTATO</label>
+            <input type="text" id="lname" name="lastname" placeholder="Digite o telefone ou whats-up">
     
-            <label for="subject">REFERENCIA</label>
-            <input type="text" id="subject" name="subject" placeholder="Como deseja chamar?">
+            <label for="subject">CPF RESPONSAVEL</label>
+            <input type="text" id="subject" name="subject" placeholder="Digite o CPF do responsavel">
+
+            <label for="subject">NOME DO RESPONSAVEL</label>
+            <input type="text" id="subject" name="subject" placeholder="Digite o nome do responsavel">
         
             <input type="submit" value="Submit" >
           </form>

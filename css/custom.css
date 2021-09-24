@@ -61,9 +61,10 @@ body, html{
 }
 
 .carousel{
-    align-items: center;
     text-align: center;
     background-color: var(--secondary-light);
+
+
 }
 
 .title{
@@ -76,6 +77,8 @@ body, html{
 
 .carosel-partners{
     padding-bottom: 10px;
+
+
 
 }
 .footer{
