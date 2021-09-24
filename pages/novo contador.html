@@ -14,15 +14,32 @@
 <body>
     <div class="container">
       <div class="box">
-        <div class="welcome">
-            <h2 class="text">Bem vindo(a) à </h2><h1 class="text-logo">HUBRPA</h1> 
-        </div>        
-      </div>
+        <div class="title">
+            Insira os dados de seu contator(a)
+        </div>
 
-    </div>  
-    <div class="dashboard">
         
-    </div>
+      </div>
+      <div class="table">
+        <form method="post" action="/pages/Inscricao.html">
+            <label for="inscricao">CPF</label>
+            <input type="text" id="fname" name="inscricao" placeholder="Numero do CPF">
+            
+            <label for="country">UF</label>
+            <select id="country" name="country">
+              <option value="Goias">GO</option>
+            </select>
+        
+            <label for="lname">NOME</label>
+            <input type="text" id="lname" name="lastname" placeholder="Digite o nome">
+    
+            <label for="subject">ID</label>
+            <input type="text" id="subject" name="subject" placeholder="Digite o nº de colaborador">
+        
+            <input type="submit" value="Submit" >
+          </form>
+      </div>
+    </div>    
     <script src="/js/setup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="/js/bootstrap.min.js"></script>
