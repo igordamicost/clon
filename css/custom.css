@@ -91,27 +91,26 @@ body, html{
     color:var(--navcolor)
 }
 
-
 .login{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 7% 30% 3% 30%;
     background-color: var(--navcolor);
     border-radius: 0% 20px 0% 20px;
     box-shadow:  2px 2px 4px #51515162;
-    width: 500px;
-    height: auto;
+
 }
 
 .logo{
-    padding: 10% 30% 10% 30% ;
+    margin-top:50px;
+    margin-bottom:50px;
+    align-items: center;
     
 }
 .forms{
-    margin: 10%;
+    margin: 5%;
 }
 .button{
-    margin: 10%;
+    margin: 5% 0 30px;
 }
 

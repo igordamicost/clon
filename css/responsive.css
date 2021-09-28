@@ -1,3 +1,4 @@
+/*response navbar*/
 @media (min-width: 992px){
     #header .nav-link{
         margin-left: 25px;
@@ -19,3 +20,54 @@
       display: none;
     }
   }
+/*response navbar*/
+ /*response login*/
+  @media (max-width: 1000px) {
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:15% 10% 0 10%;
+        width: auto;
+    }
+  }
+  @media (max-width: 700px) {
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:20% 10% 0 10%;
+        width: auto;
+    }
+  }
+  @media (max-width: 400px) {
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:30% 0 0 0;
+        width: auto;
+    }
+  }
+  @media (min-width: 1000px) {
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:15% 30% 0 30%;
+        width: auto;
+    }
+  }
+  @media (min-width: 1500px) {
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:15% 35% 0 35%;
+        width: auto;
+    }
+  }
+/*response login*/
+
+
+  
