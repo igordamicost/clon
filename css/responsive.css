@@ -69,5 +69,25 @@
   }
 /*response login*/
 
+/*response carousel*/
+@media (max-width: 600px) {
+  .owl-carousel .owl-stage-outer{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
 
-  
+  }
+}
+/*response carousel*/
+
+/*response text*/
+@media (max-width: 765px) {
+  .introduction{
+    text-align: center;
+  }
+}
+@media (max-width: 765px) {
+  .introduction2{
+    text-align: center;
+  }
+}
+/*Correção text*/
