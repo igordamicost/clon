@@ -47,7 +47,7 @@ body, html{
 .introduction{
     justify-content: center;
     text-align: right;
-    margin: 100px 2% 10% 2%;
+    margin: 100px 2% 5% 2%;
     background-color: var(--colorback);
 }
 .introduction2{
@@ -70,15 +70,21 @@ body, html{
 
 .title{
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-weight:700;
     font-size: 45px;
     margin-bottom: 60px;
 }
 
 .carosel-partners{
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
+.carousel-limit{
+width: 85%;
+height: auto;
+margin:7%;
+}
+
 .footer{
     margin: 0;
     text-align: center;
@@ -86,9 +92,17 @@ body, html{
     padding-bottom: 70px;
     justify-content: space-between;
     background-color: var(--footercolor);
-    color:var(--navcolor)
+    color:var(--navcolor) ;
 }
-
+.footer a h4{
+    color:var(--colorback);
+}
+.footer a h4:hover{
+    color:var(--secondary);
+}
+.logo-final{
+    margin-bottom: 5%;
+}
 .login{
     display: flex;
     justify-content: center;

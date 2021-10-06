@@ -7,7 +7,7 @@
  * 	Default theme - Owl Carousel CSS File
  */
  .owl-theme .owl-nav {
-    margin-top: 10px;
+    margin-top: 100px;
     text-align: center;
     -webkit-tap-highlight-color: transparent; }
     .owl-theme .owl-nav [class*='owl-'] {
@@ -35,7 +35,7 @@
     -webkit-tap-highlight-color: transparent; }
     .owl-theme .owl-dots .owl-dot {
       display: inline-block;
-      zoom: 1;
+      zoom: .01;
       *display: inline; }
       .owl-theme .owl-dots .owl-dot span {
         width: 10px;
